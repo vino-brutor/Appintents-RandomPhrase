@@ -8,12 +8,13 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
         VStack {
-            Image(systemName: "globe")
+            Image(systemName: "brain.head.profile")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text("Hello, world!")
+            Text("Frases Aleatórias!")
         }
         .padding()
     }

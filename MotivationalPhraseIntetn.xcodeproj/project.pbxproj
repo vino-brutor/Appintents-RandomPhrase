@@ -35,16 +35,6 @@
 			path = MotivationalPhraseIntetn;
 			sourceTree = "<group>";
 		};
-		645444F92EA011C4000B5B0A /* MotivationalPhraseIntetnTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MotivationalPhraseIntetnTests;
-			sourceTree = "<group>";
-		};
-		645445032EA011C4000B5B0A /* MotivationalPhraseIntetnUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MotivationalPhraseIntetnUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,8 +66,6 @@
 			isa = PBXGroup;
 			children = (
 				645444EB2EA011C3000B5B0A /* MotivationalPhraseIntetn */,
-				645444F92EA011C4000B5B0A /* MotivationalPhraseIntetnTests */,
-				645445032EA011C4000B5B0A /* MotivationalPhraseIntetnUITests */,
 				645444EA2EA011C3000B5B0A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -130,9 +118,6 @@
 			dependencies = (
 				645444F82EA011C4000B5B0A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				645444F92EA011C4000B5B0A /* MotivationalPhraseIntetnTests */,
-			);
 			name = MotivationalPhraseIntetnTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +137,6 @@
 			);
 			dependencies = (
 				645445022EA011C4000B5B0A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				645445032EA011C4000B5B0A /* MotivationalPhraseIntetnUITests */,
 			);
 			name = MotivationalPhraseIntetnUITests;
 			packageProductDependencies = (
@@ -400,6 +382,7 @@
 				DEVELOPMENT_TEAM = YBSTQNCUFV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = reflection;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -432,6 +415,7 @@
 				DEVELOPMENT_TEAM = YBSTQNCUFV;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = reflection;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
