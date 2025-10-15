@@ -6,9 +6,11 @@ Este app tem uma funcionalidade central: exibir uma frase motivacional aleatóri
 App Intents: O framework moderno para ensinar a Siri, Atalhos e o Spotlight a entender e executar as funcionalidades do seu app.
 App Shortcuts: A forma como "anunciamos" para a Siri quais comandos de voz podem ativar as ações do nosso app.
 App Entity: Como representamos os dados do nosso app (nossas "frases") em um formato que o sistema entenda.
+
 ✨ Funcionalidades Principais
 UI Simples: Uma tela principal que exibe uma frase motivacional.
 Integração com a Siri: A funcionalidade principal do estudo. O usuário pode pedir uma frase diretamente à Siri, sem precisar abrir o app. A Siri irá falar a frase em voz alta e exibi-la em sua própria interface.
+
 🚀 Como Testar a Integração com a Siri
 Para testar a funcionalidade principal do projeto, siga os passos abaixo.
 
