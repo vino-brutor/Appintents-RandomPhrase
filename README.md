@@ -22,16 +22,20 @@ Compile e execute o aplicativo no seu dispositivo pelo menos uma vez. Isso regis
 Ative a Siri:
 Chame a Siri (usando o botão lateral ou dizendo "E aí Siri").
 Diga um dos comandos que foram configurados no AppShortcutsProvider. Tente estas frases:
+
 "Ouvir frase do dia em reflection"
+
 "Abrir frase motivacional em reflection"
 
 Verifique o Resultado:
 A Siri deverá responder em voz alta com a frase: "A frase do momento é: [texto da frase]".
 Ao mesmo tempo, a interface da Siri na tela deverá exibir um pequeno card com o texto da frase que foi sorteada.
-(Opcional) Verifique no App Atalhos:
+
+Verifique no App Atalhos:
 Abra o app Atalhos (Shortcuts) da Apple.
 Toque em + para criar um novo atalho e depois em Adicionar Ação.
 Procure pelo nome do seu aplicativo. Você deverá ver a ação "Ouvir frase motivacional" listada, com o ícone do seu app. Isso confirma que o sistema reconheceu seu AppShortcutsProvider.
+
 🛠️ Tecnologias Utilizadas
 SwiftUI: Para a construção da interface de usuário.
 App Intents: Para a lógica da ação que a Siri executa.
