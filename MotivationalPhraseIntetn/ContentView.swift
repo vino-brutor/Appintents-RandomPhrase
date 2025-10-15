@@ -9,12 +9,15 @@ import SwiftUI
 
 struct ContentView: View {
     
+    var modelData = ModelData()
+    
     var body: some View {
-        VStack {
+        VStack(spacing: 16){
             Image(systemName: "brain.head.profile")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Frases Aleatórias!")
+            Text("\(modelData.getRandomPhrase().text)")
         }
         .padding()
     }
